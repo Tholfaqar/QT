@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2019-01-06T18:59:39
+# Project created by QtCreator 2019-01-08T22:38:50
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = CAD_to_path
+TARGET = proj2
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -26,14 +26,13 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        cad_to_path.cpp \
-    classes.cpp
+        proj2.cpp
 
 HEADERS += \
-        cad_to_path.h
+        proj2.h
 
 FORMS += \
-        cad_to_path.ui
+        proj2.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

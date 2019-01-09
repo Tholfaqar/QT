@@ -15,6 +15,13 @@ public:
     explicit CAD_to_path(QWidget *parent = nullptr);
     ~CAD_to_path();
 
+private slots:
+    void on_browse_bn_clicked();
+
+    void on_gen_pg_bn_clicked();
+
+    void generate_pg();
+
 private:
     Ui::CAD_to_path *ui;
 };
